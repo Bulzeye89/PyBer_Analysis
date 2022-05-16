@@ -9,41 +9,18 @@ The purpose of this dive into PyBer ride-sharing data to is garner insights for 
 -Software: Python 3.7.11, Anaconda 4.12.0, JupyterLab 3.3.2
 
 ## Results
-	
+Some key findings after aggregating and analyzing the data are:
+- There are almost 5 times as many urban drivers as suburban drivers and 30 times as many urban drivers as rural drivers.
+- There are 2.6 more total urban rides than suburan rides and 13 times more total urban rides than total rural rides.
+- The average urban fare is 29% less than the average rural fare and 21% less than the average suburan fare. 
+- The average fare per urban driver is 70% less than the average fare per rural driver and 58% less than the average fare per suburban driver. 
+- 62% of total fares and 68% of total rides are from urban cities while 80% of drivers are based in urban cities as seen in the graphs below.  
 
-<img src="https://github.com/Bulzeye89/School_District_Analaysis/blob/main/Resources/Module%20District_Summary_df.png">
-<br>
-<br>
-while this second image is the district summary dataframe with the scores changed to Nans.
-<br>
-<br>
-<img src="https://github.com/Bulzeye89/School_District_Analaysis/blob/main/Resources/Challenge%20District_summary_df.png">
-
-<br>
-<br>
-
-The school summary saw similar miniscule changes that can be seen below.
 <p float="left">
-<img src="https://github.com/Bulzeye89/School_District_Analaysis/blob/main/Resources/Module%20per%20school%20summary%20df.png" width=40% height=50%>
-<img src="https://github.com/Bulzeye89/School_District_Analaysis/blob/main/Resources/Challenge%20per%20school%20summary%20df.png" width=40% height=50%>
-</p>
-
-<br>
-<br>
-
-The results also slightly affected, by fractions of a percentage, the following:
-- Math and reading scores for 9th grade
-- Scores for medium school size when filtering by school size
-- Scores for charter schols when filtering by school type 
-<br>
-
-In addition, when running the following code:
-    
-    '# Sort and show top five schools.
-        top_schools = per_school_summary_df.sort_values(["% Overall Passing"], ascending=False)
-        top_schools.head()
-
-The removal of 461 9th grade Thomas High students' scores being changed to NaNs similarly resulted in fractional percentage differences, but Thomas High School still remained the 2nd school overall.  
+<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/Fig5.png" width=20% height=20%>
+<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/Fig6.png" width=20% height=20%>
+<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/Fig7.png" width=20% height=20%>
+</p>  
 
 
 
