@@ -14,12 +14,11 @@ Some key findings after aggregating and analyzing the data are:
 - There are 2.6 more total urban rides than suburan rides and 13 times more total urban rides than total rural rides.
 - The average urban fare is 29% less than the average rural fare and 21% less than the average suburan fare. 
 - The average fare per urban driver is 70% less than the average fare per rural driver and 58% less than the average fare per suburban driver. 
-- 62% of total fares and 68% of total rides are from urban cities while 80% of drivers are based in urban cities as seen in the graphs below.  
+- 62% of total fares and 68% of total rides are from urban cities while 80% of drivers are based in urban cities as seen in the graphs below.
+-On a weekly basis, urban fares consistently outpace rural fares by 4 times and suburban fares by 2 times as seen in the graph below.  
 
 <p float="left">
-<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/Fig5.png" width=20% height=20%>
-<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/Fig6.png" width=20% height=20%>
-<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/Fig7.png" width=20% height=20%>
+<img src="https://github.com/Bulzeye89/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png" 
 </p>  
 
 
