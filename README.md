@@ -2,18 +2,14 @@
 
 ## Overview 
 ### Background
-THe purpose of this dive into PyBer ride-sharing data to is garner insights for the company's decision makers which will help them steer a path for PyBer's future and growth. This early probe will specifically be looking what the data tells us about fares, rides, and drivers per city type.  City type is classified as rural, suburban, or urban.  
+The purpose of this dive into PyBer ride-sharing data to is garner insights for the company's decision makers which will help them steer a path for PyBer's future and growth. This early probe will specifically be looking what the data tells us about fares, rides, and drivers per city type.  City type is classified as rural, suburban, or urban.  
 
 ### Resources
--Data Source: [city_data.csv](https://github.com/Bulzeye89/PyBer_Analysis/blob/main/Resources/city_data.csv), [ride_data.csv](https://github.com/Bulzeye89/PyBer_Analysis/blob/main/Resources/ride_data.csv)
+-Data Source: [city_data.csv](https://github.com/Bulzeye89/PyBer_Analysis/blob/main/Resources/city_data.csv), [ride_data.csv](https://github.com/Bulzeye89/PyBer_Analysis/blob/main/Resources/ride_data.csv)<br>
 -Software: Python 3.7.11, Anaconda 4.12.0, JupyterLab 3.3.2
 
 ## Results
-	'Total Rides	Total Drivers	Total Fares	Average Fare per Ride	Average Fare per Driver
-    Rural	125	78	$4,327.93	$34.62	$55.49
-    Suburban	625	490	$19,356.33	$30.97	$39.50
-    Urban	1,625	2,405	$39,854.38	$24.53	$16.57
-
+	
 
 <img src="https://github.com/Bulzeye89/School_District_Analaysis/blob/main/Resources/Module%20District_Summary_df.png">
 <br>
